@@ -1,0 +1,4 @@
+.navbar ::after,
+.navbar ::before {
+  background-color: white;
+}
