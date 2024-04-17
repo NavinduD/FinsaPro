@@ -1,10 +1,10 @@
-
+import Hero from "../Components/Hero/hero.jsx"
 const Home = () => {
     return (
         <div>
-            <h1 className="text-3xl font-bold underline">
-                Hello world!
-            </h1>
+            <div>
+                <Hero />
+            </div>
         </div>
     )
 }

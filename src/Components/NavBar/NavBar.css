@@ -2,3 +2,7 @@
 .navbar ::before {
   background-color: white;
 }
+
+.navbar{
+  width: fit-content;
+}

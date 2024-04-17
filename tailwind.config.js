@@ -1,4 +1,5 @@
 import { nextui } from "@nextui-org/react";
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -13,9 +14,14 @@ export default {
       lg: '976px',
       xl: '1440px',
     },
+    fontFamily: {
+      'josefin-sans': ['Josefin Sans', 'sans-serif'],
+    },
     colors:{
       'black':'#242424',
-      'white': '#ffffff'
+      'white': '#ffffff',
+      'blue': '#07F1FA',
+      'pink': '#8132E2',
     },
     extend: {},
   },

@@ -7,7 +7,7 @@ import NavBar from './Components/NavBar/NavBar.jsx'
 function App() {
 
   return (
-    <div className="dark bg-black text-foreground bg-background">
+    <div className="dark text-foreground bg-background">
       <BrowserRouter>
         <NavBar />
         <Routes>
